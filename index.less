@@ -1,0 +1,70 @@
+.tabs{
+    border: 3px solid rgba(222, 74, 60, 0.05);
+    :global(.ant-tabs-nav-scroll){
+        padding-left: 60px !important;
+    }
+}
+.icon{
+    height: 24px;
+    width: 24px;
+    // margineft: '0.5rem';
+    cursor: pointer;
+    position: absolute;
+    top:20px;
+    left: 20px;
+    z-index: 999;
+}
+.penetrate-chart {
+  .bt-group{
+      position: fixed;
+      z-index: 999;
+      right: 15px;
+      bottom: 15px;
+      button{
+          width:88px;
+          height:32px;
+          display: block;
+          border-radius:18px;
+          font-size:14px;
+          font-family:PingFangSC-Medium;
+          font-weight:500;
+          line-height:20px;
+      }
+      .save{
+          background:rgba(255,168,9,1);
+          color:rgba(255,255,255,1);
+      }
+      .reset{
+          margin-top: 8px;
+          color: rgba(255, 168, 9, 1);
+          background: white;
+          border:1px solid rgba(255,168,9,1);
+      }
+  }
+}
+
+.structureTab{
+    :global(.ant-tabs-nav-container){
+            position: absolute;
+            z-index: 9999999;
+            top: 50px;
+            right: 0;
+    }
+    :global(.ant-tabs-nav-scroll){
+        background-color: transparent !important;
+        padding: 0 !important;
+    }
+    :global(.ant-tabs-tab){
+        border: 1px solid #999999;
+        width: 96px !important;
+        height: 40px !important;
+        line-height: 38px !important;
+        border-radius: 6px !important;
+        background: #FFFFFF;
+        color: #666666;
+        margin: 0 !important;
+    }
+    :global(.ant-tabs-tab-active){
+        border: 1px solid #DE4A3C;
+    }
+}
