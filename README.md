@@ -1,6 +1,9 @@
 # react-d3
 umi 框架中使用hooks结合d3完成股权穿透图和股权结构图
 
+贴上vue2版本代码：https://github.com/QiuDaShua/vue2-d3.git
+
+
 版本信息：
 "d3": "4.13.0",
 "antd": "3.24.2",
