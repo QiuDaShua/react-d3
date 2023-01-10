@@ -1,5 +1,5 @@
 # react-d3
-umi+antd-admin 框架中使用hooks结合d3完成股权穿透图和股权结构图
+umi+antd-admin 框架中使用hooks结合d3完成股权穿透图和股权结构图(web)
 
 贴上vue2版本代码：https://github.com/QiuDaShua/vue2-d3.git
 
